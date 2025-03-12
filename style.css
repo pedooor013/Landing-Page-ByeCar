@@ -1,0 +1,64 @@
+*{
+    margin:0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Menu superior */
+#logo{
+    width: 100px;
+    margin-left: 30px;
+}
+#titulo-menu-superior{
+    color: white;
+    margin-left: 20px;
+    font-size: 30px;
+}
+#menu-superior{
+    padding: 0px;
+    display: flex;
+    grid-auto-flow: column;
+    columns: auto;
+    background-color: #303030;
+    align-items: center;
+}
+
+/* Menu esquerda */
+#menu-esquerda{
+    text-align: center;
+    margin-left: 0px;
+    width: 650px;
+}
+
+#texto-menu-esquerda{
+    color: #265E70;
+    font-size: 32px;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+#img-menu-esquerda{
+    margin-top: 0px;
+    width: 500px;
+}
+
+/* Menu Direito */
+#menu-direito{
+    text-align: center;
+    margin-right: 0px;
+    margin-top: 20px;
+    
+}
+#texto-menu-direito{
+    color: #265E70;
+    font-size: 32px;
+}
+#texto-menu-direito strong{
+    color: #4DBCE9BF;
+}
+
+
+
+#menus{
+    display: flex;
+    grid-auto-flow: column;
+    columns: auto;
+}
