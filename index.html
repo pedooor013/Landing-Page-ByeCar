@@ -34,15 +34,16 @@
             <p id="texto-menu-direito">
                 Conheça nossas <strong id="negrito">motos</strong>!
             </p>
-            <img src="imagem-menu-direita/seta-esquerda.svg" alt="ERROR" id="seta-esquerda" class="seta">
-            <img src="imagem-menu-direita/img-scooter.svg" alt="ERROR" id="img-scooter">
-            <!--
-                <img src="imagem-menu-direita/img-cb500.svg" alt="ERROR" id="img-cb500">
-                -->
-            <img src="imagem-menu-direita/seta-direita.svg" alt="ERROR" id="seta-direita" class="seta"> 
-            <button id="saiba-mais">
+            <div id="infos-menu-direita">
+                <img src="imagem-menu-direita/seta-esquerda.svg" alt="ERROR" id="seta-esquerda" class="seta" onclick="rolarParaEsquerda()">
+                <img src="imagem-menu-direita/img-scooter.svg" alt="ERROR" id="img-scooter" class="img-direita">
+                    <img src="imagem-menu-direita/img-cb500.svg" alt="ERROR" id="img-cb500" class="img-direita">
+                    <img src="imagem-menu-direita/seta-direita.svg" alt="ERROR" id="seta-direita" class="seta" onclick="rolarParaDireita()"> 
+                </div>
+            <button id="saiba-mais" onclick="infoMoto()">
                 <strong>Saiba Mais</strong>
             </button>
+            <script src="index.js"></script>
         </div>    
 
     </div>

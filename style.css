@@ -54,9 +54,44 @@
 #texto-menu-direito strong{
     color: #4DBCE9BF;
 }
+.img-direita{
+    width: 450px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom: 20px;
+}
+#infos-menu-direita{
+    margin-top: 40px;
+    display: flex;
+    grid-auto-flow: column;
+    column: auto;
+}
+#img-cb500{
+    display: none;
+}
+.seta{
+    cursor: pointer;
+}
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
 
-
-
+button{
+    width: 250px;
+    height: 50px;
+    font-size: 32px;
+    color: #ffffff;
+    background-color: #4DBCE9BF;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    transform: translateY(-3px);
+    transition-duration: 0.5s;
+    box-shadow: 1.5px 1.5px 0px 1.5px rgb(99, 98, 98); 
+}
 #menus{
     display: flex;
     grid-auto-flow: column;
