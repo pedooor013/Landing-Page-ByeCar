@@ -92,6 +92,51 @@ button:hover{
     transition-duration: 0.5s;
     box-shadow: 1.5px 1.5px 0px 1.5px rgb(99, 98, 98); 
 }
+#info-moto {
+    position: fixed; /* Mantém a div fixa na tela */
+    background-color: rgba(77, 188, 233); /* Cor com transparência */
+    width: 600px;
+    height: 500px;
+    text-align: center;
+    color: #ffffff;
+    display: flex; /* Centraliza o conteúdo interno */
+    flex-direction: column; /* Mantém o conteúdo organizado em coluna */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    border-radius: 15px;
+    z-index: 1001; /* Um nível acima do overlay */
+    left: 50%; /* Move a div para o centro da tela */
+    top: 50%;
+    transform: translate(-50%, -50%); /* Ajusta para ficar exatamente no meio */
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Efeito de sombra */
+}
+#overlay{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5); /* Escurece a tela */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000; /* Certifica que está abaixo da div */
+    }
+#titulo-info{
+    font-size: 32px;
+    margin-bottom: 20px;
+
+}
+#texto-info{
+    font-size: 20px;
+}
+#info-moto button{
+    background-color: #ffffff;
+    color: #4DBCE9BF;
+    margin-top: 50px;
+
+}
 #menus{
     display: flex;
     grid-auto-flow: column;
