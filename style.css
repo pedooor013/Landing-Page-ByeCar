@@ -96,23 +96,23 @@ button:hover{
     display: none;
 }
 #info-moto {
-    position: fixed; /* Mantém a div fixa na tela */
-    background-color: rgba(77, 188, 233); /* Cor com transparência */
+    position: fixed; 
+    background-color: rgba(77, 188, 233);
     width: 600px;
     height: 500px;
     text-align: center;
     color: #ffffff;
-    display: flex; /* Centraliza o conteúdo interno */
-    flex-direction: column; /* Mantém o conteúdo organizado em coluna */
-    justify-content: center; /* Centraliza verticalmente */
-    align-items: center; /* Centraliza horizontalmente */
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
     border-radius: 15px;
-    z-index: 1001; /* Um nível acima do overlay */
-    left: 50%; /* Move a div para o centro da tela */
+    z-index: 1001; 
+    left: 50%; 
     top: 50%;
-    transform: translate(-50%, -50%); /* Ajusta para ficar exatamente no meio */
+    transform: translate(-50%, -50%); 
     padding: 20px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Efeito de sombra */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
 }
 #escurecer-tela{
     position: fixed;
