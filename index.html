@@ -41,21 +41,26 @@
                 <img src="imagem-menu-direita/img-cb500.svg" alt="ERROR" id="img-cb500" class="img-direita">
                 <img src="imagem-menu-direita/seta-direita.svg" alt="ERROR" id="seta-direita" class="seta" onclick="rolarParaDireita()"> 
             </div>
-            <button id="saiba-mais" onclick="infoMoto()">
+            <button id="saiba-mais" onclick="abrirOverlay()">
                 <strong>Saiba Mais</strong>
             </button>
         </div>        
     </div>
-    <div id="info-moto">
-        <h2 id="titulo-info">Honda CB 500X</h2>
-        <p id="texto-info">
-            O câmbio de 6 marchas da CB 500X oferece maior confiança e<br> performance na pilotagem, tornando as subidas de marcha mais<br> leves e as reduções mais suaves!
-        </p>
-        <img src="imagem-menu-direita/foto-cb500.svg" alt="ERROR" id="foto-moto">
-    <button>Quero Assinar!</button>
-</div>
-</div>
-<div id="overlay">
+    <div id="overlay">
+
+        <div id="info-moto">
+            <img src="imagem-overlay/fechar.svg" alt="ERROR" id="fechar-overlay" onclick="fecharOverlay()">
+            <h2 id="titulo-info">Honda CB 500X</h2>
+            <p id="texto-info">
+                <strong>O câmbio de 6 marchas da CB 500X oferece maior confiança e<br>
+                    performance na pilotagem, tornando as subidas de marcha mais<br> 
+                    leves e as reduções mais suaves!</strong>
+                </p>
+                <img src="imagem-menu-direita/foto-cb500.svg" alt="ERROR" id="foto-moto">
+                <button>Quero Assinar!</button>
+            </div>
+            <div id="escurecer-tela"></div>
+        </div>
 <script src="index.js"></script>
 </body>
 </html>
